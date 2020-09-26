@@ -61,16 +61,24 @@ table {
     padding: 10px;
     min-width: 125px;
     text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .rowhead {
     border-top: 2px solid #000000;
     border-right: 2px solid #000000;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 td {
-    border-top: 2px solid #000000;
+    text-align: center;
+    vertical-align: middle;
     padding: 10px;
+    border-top: 2px solid #000000;
+    border-width: 2px;
 }
 
 tbody tr:last-child th:first-child {
